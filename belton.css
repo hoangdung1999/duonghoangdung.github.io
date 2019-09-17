@@ -1,0 +1,464 @@
+* { margin: 0; padding: 0;}
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://dung123456789.000webhostapp.com/banner.jpg);
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    background-attachment : fixed;
+    
+}
+/*              banner top                  */
+.banner .top{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+}
+.banner .top .between,.right{
+    margin-top: 25px; 
+}
+.banner .top .left{
+    width: 33.3%;
+    text-align: center;
+}
+.banner .top .between{
+    text-align: center;
+    width: 33.3%;
+}
+.banner .top .between img{
+    width: 85px;
+}
+.banner .top .right{
+    text-align: right;
+    width: 33.3%;
+    margin-right: 35px;
+}
+.banner .top .right a{
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+/*              baner textblock                */
+.banner .textblock{
+    position: absolute;
+    z-index: 1;
+    width: 555px;
+    height: 252px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 183px;
+    left: 269px;
+}
+.banner .textblock p{
+    margin: 20px 0;
+    font-size: 120%;
+}
+.banner .textblock h1{
+    font-size: 48px;
+    font-weight: lighter;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-image: -webkit-linear-gradient(left,black 0%, #0000ff00,black 100%); 
+    top: 0;
+    left: 0;
+}
+
+/*          description             */
+.description{
+    height: 464px;
+    margin-top : 68px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 68px;
+    width: 1300px;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    color: #8b8a8a;
+    font-size: 120%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit; 
+}
+.description .trai{
+    width: 270px;
+    height: 186px;
+
+}
+.description .trai p{
+    
+    margin: 20px 0;
+}
+.description .trai h2{
+    font-family: Oswald;
+    line-height: 40px;
+    font-size: 22px;
+}
+.description .phai{
+    width: 670px;
+    height: 329px;
+    font-weight: 400px;
+    
+}
+.description .phai .large{
+    margin-top: 20px;
+}
+.description .phai p{
+    margin-bottom: 35px;
+}
+.description .phai a{
+    display: inline;
+    text-decoration: none;
+    color: #8b8a8a;
+    justify-content: center;
+}
+.description .phai a:hover div{
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.description .phai a:hover span{
+    color: #2b2b2b;
+}
+.description .phai a div{
+    margin-right: 15px;
+    transition: 0.4s;
+}
+
+/*          icon goc phai tren cung doi mau */
+.banner .top .right .fa-facebook{
+    transition: 0.4s;
+}
+.banner .top .right .fa-facebook:hover{
+    color:  rgb(14, 27, 209);
+}
+.banner .top .right .fa-github{
+    transition: 0.4s;
+}
+.banner .top .right .fa-github:hover{
+    color:  rgb(14, 27, 209);
+}
+.banner .top .right .fa-instagram{
+    transition: 0.4s;
+}
+.banner .top .right .fa-instagram:hover{
+    color:  rgb(14, 27, 209);
+}
+
+/*              icon   góc trái trên cùng           */
+.cursor {
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+    padding-top: 0;
+    height: 58px;
+    width: 58px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+#nav-button {
+    display: inline-block;
+    width: 19px;
+    padding-left: 19px;
+    height: 56px;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-top: 21px;
+    text-align: center;
+}
+.banner .top .left .cursor:hover .nav-bar{
+    background-color: rgb(14, 27, 209);
+}
+.nav-bar {
+    background-color: #ffffff;
+}
+.nav-bar {
+    border-radius: 1px;
+    display: block;
+    width: 19px;
+    height: 2px;
+    margin: 0px auto 3px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.nav-bar:nth-child(2) {
+    width: 14px;
+    margin-right: 5px;
+}
+.nav-bar:nth-child(3) {
+    width: 17px;
+    margin-right: 2px;
+}
+/*  end icon */
+
+
+
+/*      contain     */
+.contain{
+    width : 100%;
+    min-height: 1475px;
+    background-color: #000000;
+    display: inline-block;
+}
+.contain .main{
+    content: '';
+    width: 1200px;
+    height: 1180px;
+    margin-top: 102px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+/*          text            */
+.contain .main .text{
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.contain .main .text ul li{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.contain .main .text ul li:hover{
+    opacity: 1;
+}
+.contain .main .text ul{
+    list-style: none;
+}
+
+.contain .main .text ul li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contain .main .text ul li:nth-child(1){
+    opacity: 1;
+}
+/*          hình ảnh            */
+.contain .main ._image{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;;
+}
+.contain .main ._image a{
+    position: relative;
+    margin-top: 20px;   
+    width: 535px;
+    height: 370px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.contain .main ._image a img{
+    width: 535px;
+    height: 370px;
+}
+/*      hiệu ứng        */
+.contain .main ._image a::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 535px;
+    height: 370px;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0;
+    transition: 0.4s;
+}
+.contain .main ._image a:hover:after{
+    opacity: 0.4;
+}
+.contain .main ._image a .title{
+    position: absolute;
+    top: 41px;
+    right: 20px;
+    width: 255px;
+    height: 90px;
+    z-index: 10;
+}
+.contain .main ._image a .title p{
+    position: relative;
+    margin-left: 111px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    width: 143px;
+    height: 40px;
+    font-size: 120%;
+}
+.contain .main ._image a .title p span{ opacity: 0;    transition-delay: 0.6s}
+.contain .main ._image a:hover .title p span{   opacity: 1;     }
+.contain .main ._image a .title p::after{
+    position: absolute;
+    content: '';
+    width: 143px;
+    height: 40px;
+    top: 0;
+    left: -143px;
+    background-color: white;
+    transition: 0.8s;
+  
+}
+.contain .main ._image a:hover .title p::after{
+    left: 143px;
+}
+.contain .main ._image a .title h1{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+}
+.contain .main ._image a .title h1 span{    opacity: 0 ;   transition-delay: 0.6s  }
+.contain .main ._image a:hover .title h1 span{  opacity: 1;}
+.contain .main ._image a .title h1::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 45px;
+    top: 0;
+    left: 255px;
+    background-color: white;
+    transition: 0.8s;
+   
+}
+.contain .main ._image a:hover .title h1::after{
+    left: -255px;
+}
+.contain .main ._image a:hover .title h1{
+    opacity: 1;
+} 
+/*                    END CONTENT                         */
+  
+
+
+/*                    PART FINISH                         */
+.finish{
+    display: flex;
+    width :auto;
+    height: 491px;
+    align-items: center;
+}
+.finish ._main{
+    height: 291px;
+    width: 1200px;
+    margin: auto;
+}
+.finish ._main .icon{
+    text-align: center;
+    width: 1000px;
+    height: 117px;
+    margin : auto;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+.finish ._main .icon img{
+    width: 116.6px;
+    height: 116.6px;
+    margin: 0 23px;
+}
+
+.finish ._main .text{
+    width: 1000px;
+    height: 101px;
+    display: flex;
+    margin: auto;
+}
+.finish ._main .text .cot1{
+    width: 16.66666667%;
+    height: auto;
+    font-family: Oswald;
+    color: #2b2b2b;
+    text-align: center;
+}
+.finish ._main .text .cot1 h2{font-weight: 400;    font-size: 36px; line-height: 1.3;}
+.finish ._main .text .cot2{
+    width: 41.66666667%;
+    height: auto;
+    padding-top: 2px;
+}
+.finish ._main .text .cot2 p{
+    font-size: 120%;
+    padding: 0px 0 5px;
+    color:  #666666;
+    
+}
+.finish ._main .text .cot3{
+    height: auto;
+    width: 41.66666667%;
+    text-align: right;
+}
+.finish ._main .text .cot3 a{
+    text-decoration: none;
+    color:  #666666;
+    margin-right: 15px;
+    position: relative;
+}
+.finish ._main .text .cot3 a div{
+    position: absolute;
+    left: -37px;
+    font-size: 19px;
+    transition: 0.3s;
+}
+.finish ._main .text .cot3 a:hover {  color: black}
+.finish ._main .text .cot3 a:hover div{
+    left: -22px;
+}
+
+
+
+/*                           BOTTOM                             */
+.bottom{
+    display: flex;
+    align-items: center;
+    height: 184px;
+    width: auto;
+    background-color:#111;
+}
+.bottom .content{
+    margin: auto;
+    height:54px;
+    width: 1300px;
+}
+.bottom .content p{
+    display: inline-block  ;
+    margin-top: 17px;
+    color: #e9e3e3;
+}
+.bottom .content .p1{
+    top: 15px;  
+    display: inline-block;
+}
+.bottom .content .p2{
+    float: right;
+    text-align: right;
+}
+.bottom .content p i{
+    color: #337ab7;
+}
+.bottom .content p a{
+    text-decoration: none;
+    color: #d1caca;
+}
+.bottom .content p a:hover{
+    color:  rgb(14, 27, 209);
+}
